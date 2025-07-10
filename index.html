@@ -1,49 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MadWorks Development</title>
   <style>
     body {
-      font-family: "Helvetica Neue", sans-serif;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background: #0e0e0e;
+      color: #f5f5f5;
       margin: 0;
       padding: 0;
-      background: #0f1116;
-      color: white;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
+    }
+
+    header {
       text-align: center;
+      padding: 40px 20px 10px;
+      background-color: #1a1a1a;
     }
-    h1 {
-      font-size: 3em;
-      margin-bottom: 0.3em;
+
+    header h1 {
+      font-size: 38px;
+      color: #00ccff;
+      margin-bottom: 10px;
     }
-    p {
-      font-size: 1.2em;
-      color: #aaa;
+
+    .tagline {
+      font-size: 18px;
+      color: #ccc;
+      margin: 0;
     }
-    a.button {
+
+    .section {
+      max-width: 800px;
+      margin: 40px auto;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .section img {
+      width: 120px;
+      margin-bottom: 20px;
+    }
+
+    .section h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .btn {
       display: inline-block;
-      margin-top: 20px;
+      margin-top: 10px;
       padding: 12px 24px;
-      background: #1f8ef1;
-      color: white;
+      background-color: #007aff;
+      color: #fff;
       text-decoration: none;
-      border-radius: 6px;
-      transition: background 0.3s ease;
+      border-radius: 8px;
+      font-weight: bold;
     }
-    a.button:hover {
-      background: #0c7cd5;
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 16px;
+      background-color: #1a1a1a;
+      color: #bbb;
+    }
+
+    footer a {
+      color: #00ccff;
+      margin: 0 10px;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
-  <h1>MadWorks Development</h1>
-  <p>Games and apps made with passion.</p>
-  <a class="button" href="https://madworksdevelopment.github.io/marblejump-privacy/privacy-policy.html">View Privacy Policy</a>
+
+  <header>
+    <h1>MadWorks Development</h1>
+    <p class="tagline">We love creating games that spark joy and imagination.</p>
+  </header>
+
+  <div class="section">
+    <img src="https://madworksdevelopment.github.io/marblejump-privacy/logo.png" alt="Marble Jump Logo">
+    <h2>Marble Jump</h2>
+    <a href="https://apps.apple.com/app/id6747010126" class="btn">Download on the App Store</a>
+  </div>
+
+  <footer>
+    <a href="https://madworksdevelopment.github.io/marblejump-privacy/privacy-policy.html">Privacy Policy</a>
+    |
+    <a href="https://madworksdevelopment.github.io/marblejump-privacy/terms-of-service.html">Terms & Conditions</a>
+  </footer>
+
 </body>
 </html>

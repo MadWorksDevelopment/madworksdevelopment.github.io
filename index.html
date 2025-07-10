@@ -2,75 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>MadWorks Development</title>
   <style>
     body {
-      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      background: #0e0e0e;
-      color: #f5f5f5;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
       margin: 0;
       padding: 0;
+      text-align: center;
     }
 
     header {
-      text-align: center;
-      padding: 40px 20px 10px;
-      background-color: #1a1a1a;
+      background-color: #111;
+      color: white;
+      padding: 2rem 1rem;
     }
 
     header h1 {
-      font-size: 38px;
-      color: #00ccff;
-      margin-bottom: 10px;
-    }
-
-    .tagline {
-      font-size: 18px;
-      color: #ccc;
       margin: 0;
+      font-size: 2.5rem;
     }
 
-    .section {
+    .statement {
+      margin: 2rem auto 1rem;
       max-width: 800px;
-      margin: 40px auto;
-      text-align: center;
-      padding: 20px;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      padding: 0 1rem;
     }
 
-    .section img {
-      width: 120px;
-      margin-bottom: 20px;
+    .banner {
+      margin-top: 2rem;
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
     }
 
-    .section h2 {
-      font-size: 28px;
-      margin-bottom: 10px;
+    .marble-jump {
+      margin-top: 3rem;
     }
 
-    .btn {
+    .marble-jump img {
+      width: 150px;
+      height: auto;
+    }
+
+    .app-store-link {
       display: inline-block;
-      margin-top: 10px;
-      padding: 12px 24px;
+      margin-top: 1rem;
+      padding: 0.8rem 1.5rem;
       background-color: #007aff;
-      color: #fff;
+      color: white;
+      border-radius: 6px;
       text-decoration: none;
-      border-radius: 8px;
       font-weight: bold;
     }
 
     footer {
-      text-align: center;
-      padding: 30px;
-      font-size: 16px;
-      background-color: #1a1a1a;
-      color: #bbb;
+      margin-top: 3rem;
+      padding: 1rem;
+      font-size: 0.9rem;
     }
 
     footer a {
-      color: #00ccff;
-      margin: 0 10px;
+      color: #007aff;
       text-decoration: none;
+      margin: 0 0.5rem;
     }
   </style>
 </head>
@@ -78,18 +77,24 @@
 
   <header>
     <h1>MadWorks Development</h1>
-    <p class="tagline">We love creating games that spark joy and imagination.</p>
   </header>
 
-  <div class="section">
-    <img src="https://madworksdevelopment.github.io/marblejump-privacy/logo.png" alt="Marble Jump Logo">
-    <h2>Marble Jump</h2>
-    <a href="https://apps.apple.com/app/id6747010126" class="btn">Download on the App Store</a>
+  <div class="statement">
+    <p>We love making apps that are fun, challenging, and crafted with care for players of all ages.</p>
+  </div>
+
+  <!-- Banner image (marbles in tunnel) -->
+  <img class="banner" src="marbles-tunnel-banner.png" alt="Marbles racing through a tunnel" />
+
+  <div class="marble-jump">
+    <img src="marble-jump-logo.png" alt="Marble Jump Logo" />
+    <div>
+      <a class="app-store-link" href="https://apps.apple.com/app/id6747010126" target="_blank">Download on the App Store</a>
+    </div>
   </div>
 
   <footer>
-    <a href="https://madworksdevelopment.github.io/marblejump-privacy/privacy-policy.html">Privacy Policy</a>
-    |
+    <a href="https://madworksdevelopment.github.io/marblejump-privacy/privacy-policy.html">Privacy Policy</a> |
     <a href="https://madworksdevelopment.github.io/marblejump-privacy/terms-of-service.html">Terms & Conditions</a>
   </footer>
 

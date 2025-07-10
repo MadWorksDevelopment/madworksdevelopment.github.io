@@ -1,102 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MadWorks Development</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f2f2f2;
-      color: #333;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-
-    header {
-      background-color: #111;
-      color: white;
-      padding: 2rem 1rem;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-
-    .statement {
-      margin: 2rem auto 1rem;
-      max-width: 800px;
-      font-size: 1.2rem;
-      line-height: 1.6;
-      padding: 0 1rem;
-    }
-
-    .banner {
-      margin-top: 2rem;
-      width: 100%;
-      max-height: 300px;
-      object-fit: cover;
-    }
-
-    .marble-jump {
-      margin-top: 3rem;
-    }
-
-    .marble-jump img {
-      width: 150px;
-      height: auto;
-    }
-
-    .app-store-link {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.8rem 1.5rem;
-      background-color: #007aff;
-      color: white;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    footer {
-      margin-top: 3rem;
-      padding: 1rem;
-      font-size: 0.9rem;
-    }
-
-    footer a {
-      color: #007aff;
-      text-decoration: none;
-      margin: 0 0.5rem;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madworks Development</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <header>
-    <h1>MadWorks Development</h1>
+    <h1>Madworks Development</h1>
   </header>
 
-  <div class="statement">
-    <p>Apps developed with you in mind.</p>
-  </div>
+  <main>
+    <p class="tagline">Apps developed with you in mind.</p>
 
-  <!-- Banner image (marbles in tunnel) -->
-  <img class="banner" src="marbles-tunnel-banner.png" />
+    <!-- ✅ This is your banner image (the tunnel) -->
+    <img src="marbles-tunnel-banner.PNG" alt="Marble Jump Tunnel Banner" class="banner">
 
-  <div class="marble-jump">
-    <img src="marbles-tunnel-banner.PNG" alt="Marbles racing through a tunnel" class="banner" />
-    <div>
-      <a class="app-store-link" href="https://apps.apple.com/app/id6747010126" target="_blank">Download on the App Store</a>
-    </div>
-  </div>
+    <!-- ✅ This is your logo image (your game icon style logo) -->
+    <img src="marble-jump-logo.png" alt="Marble Jump Logo" class="logo">
+
+    <a class="app-store-button" href="https://apps.apple.com/app/id6747010126" target="_blank">
+      Download on the App Store
+    </a>
+  </main>
 
   <footer>
-    <a href="https://madworksdevelopment.github.io/marblejump-privacy/privacy-policy.html">Privacy Policy</a> |
-    <a href="https://madworksdevelopment.github.io/marblejump-privacy/terms-of-service.html">Terms & Conditions</a>
+    <p><a href="https://madworksdevelopment.github.io/marblejump-privacy/privacy-policy.html">Privacy Policy</a> | 
+       <a href="https://madworksdevelopment.github.io/marblejump-privacy/terms-of-service.html">Terms & Conditions</a>
+    </p>
   </footer>
-
 </body>
 </html>
